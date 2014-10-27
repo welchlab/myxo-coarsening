@@ -1,0 +1,3 @@
+#!/bin/sh
+
+java -jar pack.jar -mainjar dist/myxo-coarsening.jar -directory lib -destjar myxo-coarsening-1.0.jar

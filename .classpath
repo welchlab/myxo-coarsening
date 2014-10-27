@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="lib/xuggle-xuggler-5.4.jar"/>
+	<classpathentry kind="lib" path="/Users/pcpratts/Desktop/code/ofcoarse/java/coarsening/lib/commons-imaging-1.0-20140226.002250-7.jar"/>
+	<classpathentry kind="lib" path="/Users/pcpratts/Desktop/code/myxo-coarsening/lib/libtrifort-java-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

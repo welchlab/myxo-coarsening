@@ -1,0 +1,21 @@
+<project>
+  <target name="clean">
+    <delete dir="build"/>
+    <delete dir="dist"/>
+  </target>
+  <target name="compile">
+    <mkdir dir="build/classes"/>
+    <mkdir dir="dist"/>
+    <javac srcdir="src" destdir="build/classes" 
+      classpath="lib/commons-imaging-1.0-20140226.002250-7.jar:lib/commons-cli-1.2.jar:lib/slf4j-api-1.7.2.jar:lib/slf4j-simple-1.7.2.jar:lib/xuggle-xuggler-5.4.jar:lib/libnantucket-1.0.jar"
+      debug="true"
+      debugLevel="lines,vars,source" />
+  </target>
+  <target name="jar" depends="compile">
+    <jar destfile="dist/coarsening.jar" basedir="build/classes">
+      <manifest>
+        <attribute name="Main-Class" value="org.trifort.coarsening.figures.CurveFitCoarsening"/>
+      </manifest>
+    </jar>
+  </target>
+</project>
